@@ -438,6 +438,12 @@ footer a {
     font-size: 3rem;
     text-transform: uppercase;
   }
+
+  .cardImage img{
+    width: 200%;
+    object-fit: cover;
+  }
+
   .projetos__card .wrapperBtn *{
     margin-bottom: 5vh;
   }

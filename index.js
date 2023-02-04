@@ -1,3 +1,12 @@
+const widthScree = document.documentElement.clientWidth;
+const images = document.querySelectorAll(".cardImage img")
+if(widthScree <= 820) {
+  images.forEach((img) => {
+    const urlImg = img.src.split(".png");
+    img.src = urlImg[0] + "-mobile.png"
+  })
+}
+
 function initTabNav() {
   const tabMenu = document.querySelectorAll("[data-tab='menu'] li");
   const tabContent = document.querySelectorAll("[data-tab='content'] section");
@@ -26,7 +35,6 @@ function initTabNav() {
     });
   }
 }
-
 
 
 initTabNav()
