@@ -330,9 +330,14 @@ section.projetos {
   margin: 2rem 0;
 }
 
+.projetos__card p {
+  width: 70%;
+}
+
 .projetos__card-button img {
   width: 18px;
 }
+
 
 .cardImage {
   background-color: #3c3a54;
