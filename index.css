@@ -454,6 +454,17 @@ footer a {
   }
 }
 
+html::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #563a99;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 5px;
+}
+
 @media (max-width: 400px) {
   * {
     font-size: 1.2rem;
