@@ -457,7 +457,7 @@ footer a {
 html::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background-color: #563a99;
+  background-color: #21202e;
 }
 
 html::-webkit-scrollbar-thumb {
